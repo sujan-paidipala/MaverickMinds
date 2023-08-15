@@ -3,14 +3,9 @@ package DynamicProgramming;
 import java.util.Scanner;
 
 public class SubsetSumRecursion{
-
-    
-
-
-    public static void main(String[] args) {
-
+  public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int[] arr=null;
+        int[] arr=new int[20];
         int sum = sc.nextInt();
         int arraySize=sc.nextInt();
 
@@ -22,6 +17,8 @@ public class SubsetSumRecursion{
     }
 
     private static boolean subsetSum(int sum, int[] arr) {
+    	
+    	
 
         return false;
     }
