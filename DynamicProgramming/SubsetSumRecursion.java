@@ -32,7 +32,7 @@ public class SubsetSumRecursion{
     	if(arr[idx] <= sum)
     		ans |= subsetSum(idx-1, sum-arr[idx]);
     	
-    	ans|= subsetSum(idx-1, sum);
+    	ans |= subsetSum(idx-1, sum);
     	
 
         return ans;
