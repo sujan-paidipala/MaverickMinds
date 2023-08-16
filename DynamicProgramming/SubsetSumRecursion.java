@@ -35,6 +35,8 @@ public class SubsetSumRecursion {
 
 		ans |= subsetSum(idx - 1, sum);
 
+		//return subsetSum(idx - 1, sum - arr[idx])||subsetSum(idx - 1, sum);
+
 		return ans;
 	}
 }
